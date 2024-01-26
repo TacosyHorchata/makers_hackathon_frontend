@@ -50,22 +50,12 @@ export default function Login() {
             <div className='google-icon-wrapper'>
               <img
                 className='google-icon'
-                src='https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg'
+                src='https://expresswriters.com/wp-content/uploads/2015/09/google-new-logo-450x450.jpg'
                 alt='google'
               />
             </div>
             <p className='btn-text'>
               <b>Login with Google</b>
-            </p>
-          </div>
-        </Box>
-        <Box width='100%' mt={0.5}>
-          <div className='google-btn' style={{ backgroundColor: "#03060a" }} role={'button'} onClick={(e) => handleSignIn(e, 'github')}>
-            <div className='google-icon-wrapper'>
-              <img className='google-icon' src='https://github.com/fluidicon.png' alt='Github' />
-            </div>
-            <p className='btn-text'>
-              <b>Login with Github</b>
             </p>
           </div>
         </Box>
