@@ -43,7 +43,7 @@ export default function Login() {
     <React.Fragment>
       <CardContent>
         <Typography variant='h4' color='text.secondary' gutterBottom>
-          Penguins Chat
+          Makers chat
         </Typography>
         <Box width='100%'>
           <div className='google-btn' role={'button'} onClick={(e) => handleSignIn(e, 'google')}>
